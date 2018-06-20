@@ -100,7 +100,11 @@ $ pyenv virtualenv 2.7.10 my-virtual-env-2.7.10
 will create a virtualenv based on Python 2.7.10 under `$(pyenv root)/versions` in a
 folder called `my-virtual-env-2.7.10`.
 
+### create new python environment
 
+```sh
+$ pyenv install 3.6.5
+```
 ### Create virtualenv from current version
 
 If there is only one argument given to `pyenv virtualenv`, the virtualenv will
